@@ -24,7 +24,7 @@ public class C04_PozitifTest {
                 Keys.TAB, ConfigReader.getProperty("blueRentalPassword"),Keys.ENTER);
 
     //Giris yapildigini dogrulayiniz
-        Assert.assertTrue(blueRentalPage.verify.getText().contains("Jack"));
+        Assert.assertTrue(blueRentalPage.loginVerify.getText().contains("Jack"));
 
 
     }

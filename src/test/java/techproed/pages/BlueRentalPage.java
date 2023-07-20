@@ -17,5 +17,12 @@ public class BlueRentalPage {
     //public WebElement password; //bunun yerine tab ile girecegiz sifreyi bu sefer
 
     @FindBy(xpath ="//*[@id='dropdown-basic-button']")
-    public WebElement verify;
+    public WebElement loginVerify;
+    @FindBy(xpath = "//*[@role='alert']")
+    public WebElement fakeLoginVerify;
+    @FindBy(xpath = "//*[.='Logout']")
+    public WebElement logOut;
+    @FindBy(xpath = "//*[.='OK']")
+    public WebElement ok;
+
 }
