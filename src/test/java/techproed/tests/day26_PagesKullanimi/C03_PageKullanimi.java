@@ -5,6 +5,7 @@ import org.testng.annotations.Test;
 import techproed.pages.TechproTestCenterPage;
 import techproed.utilities.ConfigReader;
 import techproed.utilities.Driver;
+import techproed.utilities.ReusableMethods;
 
 public class C03_PageKullanimi {
     @Test

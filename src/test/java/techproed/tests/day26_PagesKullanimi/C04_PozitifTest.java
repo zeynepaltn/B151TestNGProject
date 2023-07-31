@@ -6,6 +6,7 @@ import org.testng.annotations.Test;
 import techproed.pages.BlueRentalPage;
 import techproed.utilities.ConfigReader;
 import techproed.utilities.Driver;
+import techproed.utilities.ReusableMethods;
 
 public class C04_PozitifTest {
     @Test(groups = "smoke")
