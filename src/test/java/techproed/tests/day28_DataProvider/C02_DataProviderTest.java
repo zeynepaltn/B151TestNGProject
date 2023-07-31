@@ -29,7 +29,7 @@ public class C02_DataProviderTest {
         googlePage.aramaKutusu.sendKeys(araclar, Keys.ENTER);
         ReusableMethods.bekle(3);
         //Her arama için sayfa resmi alalım
-        ReusableMethods.tumSayfaResmi();
+        ReusableMethods.tumSayfaResmi(araclar);//paranteze araclar ekle eger hata verirse
 
         //Sayfayı kapatalım
         Driver.closeDriver();

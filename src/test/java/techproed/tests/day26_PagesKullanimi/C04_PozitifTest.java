@@ -6,10 +6,9 @@ import org.testng.annotations.Test;
 import techproed.pages.BlueRentalPage;
 import techproed.utilities.ConfigReader;
 import techproed.utilities.Driver;
-import techproed.utilities.ReusableMethods;
 
 public class C04_PozitifTest {
-    @Test
+    @Test(groups = "smoke")
     public void test01() {
     //Acceptance Criteria:
     //Admin olarak, uygulamaya giriş yapabilmeliyim
@@ -25,6 +24,8 @@ public class C04_PozitifTest {
 
     //Giris yapildigini dogrulayiniz
         Assert.assertTrue(blueRentalPage.loginVerify.getText().contains("Jack"));
+        //Sayfayi kapatiniz
+        Driver.closeDriver();
 
 
     }
